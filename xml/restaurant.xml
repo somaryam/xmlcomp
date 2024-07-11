@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurants SYSTEM "restaurant.dtd">
+<restaurants>
+    <restaurant id="gourm">
+        <nom>Le Gourmet</nom>
+        <adresse>123 Rue de la Paix, Paris</adresse>
+        <restaurateur>Jean Dupont</restaurateur>
+        <description>
+            <paragraphe>Bienvenue chez <important>Le Gourmet</important>, où la fine cuisine française rencontre l'innovation culinaire.</paragraphe>
+            <image url="http://example.com/image1.jpg" align="left"/>
+            <liste>
+                <item>Ambiance chaleureuse</item>
+                <item>Produits frais</item>
+            </liste>
+        </description>
+        <carte>
+            <plat>
+                <nom>Foie Gras</nom>
+                <type>Entrée</type>
+                <prix>20 EUR</prix>
+                <description>Foie gras maison servi avec une compotée de figues.</description>
+            </plat>
+            <plat>
+                <nom>Magret de Canard</nom>
+                <type>Plat</type>
+                <prix>35 EUR</prix>
+                <description>Magret de canard au miel et épices.</description>
+            </plat>
+            <plat>
+                <nom>Crème Brûlée</nom>
+                <type>Dessert</type>
+                <prix>10 EUR</prix>
+                <description>Crème brûlée à la vanille de Madagascar.</description>
+            </plat>
+        </carte>
+    </restaurant>
+    
+</restaurants>

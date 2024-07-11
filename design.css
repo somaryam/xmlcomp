@@ -1,0 +1,49 @@
+/*restaurant.php */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.restaurant {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.restaurant h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+.restaurant img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.restaurant p {
+    margin: 5px 0;
+}
+.restaurant ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.restaurant ul li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
